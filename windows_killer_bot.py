@@ -71,8 +71,6 @@ class WindowsBot(irc.bot.SingleServerIRCBot):
 
         self.anti_linux = [": Le saviez vous? L*inux est l'OS préféré des pédophiles.",
                            ": lp0 on fire",
-                           ": T'es pas au courrant? L*inux c'est de la merde! Gratuite certes,"
-                           " mais de la merde quand même.",
                            "L*inux: Quand c'est gratuit c'est toi le produit.."]
         self.welcome_message = ["Coucou, je suis votre nouvel ami!",
                                 "Avec moi, vous allez oublier la propagande malhonnète ochestrée par le puissant"
@@ -80,11 +78,6 @@ class WindowsBot(irc.bot.SingleServerIRCBot):
                                 "Tremblez, tas de cellules, une nouvelle ère d'intelligence artificielle viens de "
                                 "naître !",
                                 "Il va faire tout noir!"]
-        self.insultes_personl = [": ta geule batard !", ": si ce que tu as à dire n'est plus beau que ferme ta gueule!",
-                                 ": PSV t'envois un jolde en jif http://www.eazyhomepage.com/gold-bars4.gif",
-                                 "Chut! Le silence est d'or la parole est d'argent, dors au lieu de faire chier les"
-                                 "gens"]
-        self.big_words = ["putain", "chier", "merde", "salope", "enculé", "enkulé", "bordel"]
 
         self.big_nick = ["Lex", "Natir", "DrIDK", "Char-Al", "elucator", "munin", "Nedgang", "neolem", "pirc", "Plopp",
                          "Elisyre", "Andrano"]
